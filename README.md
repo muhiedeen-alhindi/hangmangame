@@ -1,2 +1,2 @@
-# hangmangame
-auther muhie deen al hindi
+# hang-mangame
+auther Muhie Deen Al Hindi
