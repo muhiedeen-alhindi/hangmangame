@@ -30,18 +30,36 @@ const text = {
   };
  console.log(text.first)
 
- let x=1
+ let x=1;
+ let s=0;
  function checkLetter(button) {
     const letter = button.textContent.toLowerCase(); 
      
     if (letter === text.first) {
         text1.textContent = letter;
+         s++;
+         console.log(s)
        
     } else if (letter === text.second) {
       text2.textContent = letter;
+          s++;
+          console.log(s)
     } else if (letter === text.third) {
         text3.textContent = letter;
-    } else   if (x <= 7){
+        s++;
+        console.log(s)
+        
+    }  else if(s>=2){
+      let scores= 
+      document.getElementById("scores")
+      console.log("scores")
+      scores.innerHTML="YOU Win"
+     }
+    
+    
+    
+    
+    else   if (x <= 7){
         
             document.getElementById("div" + x).style.display = "block";
 
