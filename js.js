@@ -1,20 +1,25 @@
-let a=document.getElementById("a").innerText
-let b=document.getElementById("b").innerText
-let c=document.getElementById("c").innerText
-let d=document.getElementById("d").innerText
-let e=document.getElementById("e").innerText
-let f=document.getElementById("f").innerText
-let g=document.getElementById("g").innerText
-let h=document.getElementById("h").innerText
-let i=document.getElementById("i").innerText
-let j=document.getElementById("j").innerText
-let k=document.getElementById("k").innerText
-let l=document.getElementById("l").innerText
-let m=document.getElementById("m").innerText
-let n=document.getElementById("n").innerText
-let o=document.getElementById("o").innerText
-let p=document.getElementById("p").innerText
 
-let text 
 
- 
+const a=document.getElementById("a").innerText
+const b=document.getElementById("b").innerText
+const c=document.getElementById("c").innerText
+const d=document.getElementById("d").innerText
+const e=document.getElementById("e").innerText
+const f=document.getElementById("f").innerText
+const g=document.getElementById("g").innerText
+const h=document.getElementById("h").innerText
+const i=document.getElementById("i").innerText
+const j=document.getElementById("j").innerText
+const k=document.getElementById("k").innerText
+const l=document.getElementById("l").innerText
+const m=document.getElementById("m").innerText
+const n=document.getElementById("n").innerText
+const o=document.getElementById("o").innerText
+const p=document.getElementById("p").innerText
+
+const text = {
+    first: 'c',
+    second: 'a',
+    third:   'r',
+  };
+ console.log(text.first)
