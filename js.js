@@ -16,6 +16,9 @@ const m=document.getElementById("m").innerText
 const n=document.getElementById("n").innerText
 const o=document.getElementById("o").innerText
 const p=document.getElementById("p").innerText
+let text1=document.getElementById("text1")
+let text2=document.getElementById("text2")
+let text3=document.getElementById("text3")
 
 const text = {
     first: 'c',
@@ -23,3 +26,19 @@ const text = {
     third:   'r',
   };
  console.log(text.first)
+
+
+ function checkLetter(button) {
+    const letter = button.textContent.toLowerCase(); 
+     
+    if (letter === text.first) {
+        text1.textContent = letter;
+      alert("woho")
+    } else if (letter === text.second) {
+      text2.textContent = letter;
+    } else if (letter === text.third) {
+        text3.textContent = letter;
+    } else {
+       
+    }
+  }
