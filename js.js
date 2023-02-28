@@ -49,7 +49,7 @@ const text = {
         s++;
         console.log(s)
         
-    }  else if(s>=2){
+    }  else if(s>2){
       let scores= 
       document.getElementById("scores")
       console.log("scores")
@@ -72,5 +72,5 @@ const text = {
      }
      
   }
- 
-   
+
+
