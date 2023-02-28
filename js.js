@@ -41,12 +41,18 @@ const text = {
       text2.textContent = letter;
     } else if (letter === text.third) {
         text3.textContent = letter;
-    } else {
-        if (x <= 7) {
+    } else   if (x <= 7){
+        
             document.getElementById("div" + x).style.display = "block";
 
-            x++;
+            x++;     
     }
+    else if(x>7){
+      let scores= document.getElementById("scores")
+      console.log("scores")
+      scores.innerHTML="YOU LOST"
+     }
+     
   }
-}
  
+   
